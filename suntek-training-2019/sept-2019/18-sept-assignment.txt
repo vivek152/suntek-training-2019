@@ -1,0 +1,28 @@
+/Print substring/
+
+#include <stdio.h>
+#include<string.h>
+void substring(char *n,int l,int a,int b)
+{
+   int i;
+  for(i=a-1;i<b;i++)
+  {
+      printf("%c",n[i]);
+  }
+    
+}
+
+    
+    
+
+int main()
+{
+    char a[100];
+    int x,y,l;
+    scanf("%s",a);
+    scanf("%d",&x);
+    scanf("%d",&y);
+    l=strlen(a);
+    substring(a,l,x,y);
+    return 0;
+}

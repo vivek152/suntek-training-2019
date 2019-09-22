@@ -1,0 +1,25 @@
+
+/ Table/
+#include<stdio.h>
+#include<string.h>
+void find(int n)
+{
+   int i;
+   for(i=1;i<=10;i++)
+   {
+       printf("%d * %d = %d", n,i,(n*i));
+       printf("\n");
+   }
+}
+int main()
+{
+    
+ int n,a[20],i,n1;
+    scanf("%d",&n);
+    
+    find(n);
+    
+
+    return 0;
+}
+

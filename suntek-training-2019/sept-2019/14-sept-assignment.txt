@@ -1,0 +1,41 @@
+/1. Given an array count the occurrence of an element in that array, if it is not
+present return -1/
+
+#include <stdio.h>
+
+int find(int *b,int n,int key)
+{
+    int c=0,i;
+    for(i=0;i<n;i++)
+    {
+        if(b[i]==key)
+        {
+            c++;
+        
+        }
+    }
+    if(p==0)
+    {
+        printf("-1") ;
+        
+        
+    
+    }
+    else
+    return c;
+}
+int main()
+{
+    int b[100],l,j,k,key,n,p;
+    printf("No of elements");
+    scanf("%d",&n);
+    for(l=0;l<n;l++)
+    {
+        scanf("%d",&b[l]);
+    }
+    scanf("%d",&key);
+    p=find(b,n,key);
+    printf("%d",p);
+
+    return 0;
+}

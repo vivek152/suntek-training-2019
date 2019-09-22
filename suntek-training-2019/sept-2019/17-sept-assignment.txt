@@ -1,0 +1,31 @@
+/Reverse of the number/
+
+
+#include <stdio.h>
+
+void rev(int n)
+{
+   int temp,s=0,r;
+  
+   while(n!=0)
+   {
+       r=n%10;
+      // printf("%d",n);
+       
+       s=s*10+r;
+       n=n/10;
+   }
+   
+   printf("%d",s);
+    
+}
+    
+    
+
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    rev(a);
+    return 0;
+}
